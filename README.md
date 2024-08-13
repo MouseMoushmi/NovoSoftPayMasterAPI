@@ -123,6 +123,7 @@ Response:
   4.Payment History
 
 Endpoint: [[GET /api/history](http://localhost:8080/api/history)]
+
 Response: 
 {
     "status": 200,
@@ -146,7 +147,8 @@ Response:
 
 4.Generate Payment Reports
 
-Endpoint: [[GET /api/reports](http://localhost:8080/api/payments/reports?startDate=2024-08-01T00:00:00Z&endDate=2024-08-13T23:59:59Z&groupBy=week))]
+Endpoint: [[GET /api/reports](http://localhost:8080/api/payments/reports?startDate=2024-08-01T00:00:00Z&endDate=2024-08-13T23:59:59Z&groupBy=week)]
+
 Response: 
 {
     "status": 200,
