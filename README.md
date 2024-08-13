@@ -24,6 +24,11 @@ This project is a Spring Boot application for managing payment transactions, gen
 
 ### Database Schema
 
+spring.datasource.url=jdbc:postgresql://localhost:5432/paymentdb
+spring.datasource.username=your-username
+spring.datasource.password=your-password
+spring.jpa.hibernate.ddl-auto=update
+
 The application uses PostgreSQL as its database. Below is the schema for the payments table:
 
 Table: payments
@@ -47,7 +52,7 @@ CREATE TABLE payments (
 
 ## APIs
 
-###  1. Authenticate User
+  1. Authenticate User
 
 Endpoint: [POST /api/authenticate](http://localhost:8080/api/authenticate)
 
@@ -65,7 +70,7 @@ Response:
 }
 
 
-###  2. Post Payment
+  2. Post Payment
 
 Endpoint: [[POST /api/payments](http://localhost:8080/api/payments)]
 
@@ -94,7 +99,7 @@ Response:
     }
 }
 
-###  3.Refund Payment
+ 3.Refund Payment
 
 Endpoint: [[POST /api/refund](http://localhost:8080/api/refund)]
 
@@ -115,7 +120,7 @@ Response:
     }
 }
 
-###  4.Payment History
+  4.Payment History
 
 Endpoint: [[GET /api/history](http://localhost:8080/api/history)]
 Response: 
