@@ -47,7 +47,7 @@ CREATE TABLE payments (
 
 ## APIs
 
-1. Authenticate User
+###  1. Authenticate User
 
 Endpoint: [POST /api/authenticate](http://localhost:8080/api/authenticate)
 
@@ -65,7 +65,7 @@ Response:
 }
 
 
-2. Post Payment
+###  2. Post Payment
 
 Endpoint: [[POST /api/payments](http://localhost:8080/api/payments)]
 
@@ -94,7 +94,7 @@ Response:
     }
 }
 
-3.Refund Payment
+###  3.Refund Payment
 
 Endpoint: [[POST /api/refund](http://localhost:8080/api/refund)]
 
@@ -115,7 +115,7 @@ Response:
     }
 }
 
-4.Payment History
+###  4.Payment History
 
 Endpoint: [[GET /api/history](http://localhost:8080/api/history)]
 Response: 
